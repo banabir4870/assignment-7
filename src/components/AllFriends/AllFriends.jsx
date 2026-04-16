@@ -2,7 +2,7 @@ import React from 'react';
 import Friend from '../Friend/Friend';
 
 const AllFriends = async () => {
-    const res = await fetch('http://localhost:3000/allFriends.json', {cache: 'no-store'});
+    const res = await fetch('https://keenkeeper-a7-banabir-2hxiwf8ee-banabir-baruas-projects.vercel.app/allFriends.json', {cache: 'no-store'});
     const allFriends = await res.json();
     return (
         <div>
