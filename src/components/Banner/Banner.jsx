@@ -3,7 +3,7 @@ import { FiPlus } from 'react-icons/fi';
 
 const Banner = () => {
     return (
-        <div className='w-9/12 mx-auto mt-20 mb-8 text-center'>
+        <div className='mt-20 mb-8 text-center'>
             <div>
                 <h1 className='text-xl md:text-4xl lg:text-5xl font-bold text-[#1F2937] mb-4'>Friends to keep close in your life</h1>
                 <p className='text-[#64748B] mb-8'>Your personal shelf of meaningful connections. Browse, tend, and nurture the <br /> relationships that matter most.</p>

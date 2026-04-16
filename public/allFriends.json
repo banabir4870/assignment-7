@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emma.wilson@gmail.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family", "close friend"],
+    "bio": "Former colleague turned close friend. Met at my first job five years ago and bonded over late-night debugging sessions.",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "marcus.j@outlook.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["work", "college"],
+    "bio": "College roommate turned startup co-founder. Always up for chess or a deep conversation about the future of tech.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Aisha Patel",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "aisha.patel@yahoo.com",
+    "days_since_contact": 19,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "Senior engineer who shaped how I write software. Her code reviews were brutally honest and incredibly valuable.",
+    "goal": 21,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "name": "Tom Baker",
+    "picture": "https://randomuser.me/api/portraits/men/71.jpg",
+    "email": "tombaker88@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["hobby", "travel"],
+    "bio": "Travel buddy who got me into backpacking across Southeast Asia. We share a goal of visiting 30 countries before 35.",
+    "goal": 20,
+    "next_due_date": "2026-03-01"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Chen",
+    "picture": "https://randomuser.me/api/portraits/women/90.jpg",
+    "email": "sarah.chen@proton.me",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "Best friend from university. Now a pediatric doctor in Vancouver. We do monthly virtual dinners despite being 8 time zones apart.",
+    "goal": 14,
+    "next_due_date": "2026-04-28"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "olivia.m@icloud.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["neighbor", "family friend"],
+    "bio": "Neighbor who became like family. Her weekly homemade tamales are legendary. Our families share Sunday dinners every week.",
+    "goal": 14,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 7,
+    "name": "Ryan O'Brien",
+    "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+    "email": "ryan.obrien@gmail.com",
+    "days_since_contact": 55,
+    "status": "overdue",
+    "tags": ["childhood", "close friend"],
+    "bio": "Childhood friend since kindergarten. We built a treehouse together on our street. Now he is raising his own kids in our hometown.",
+    "goal": 30,
+    "next_due_date": "2026-03-10"
+  },
+  {
+    "id": 8,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/23.jpg",
+    "email": "lisa.n@designstudio.co",
+    "days_since_contact": 10,
+    "status": "on-track",
+    "tags": ["work", "creative"],
+    "bio": "Freelance designer and creative collaborator. Her sense of color and typography has deeply influenced my aesthetic taste.",
+    "goal": 21,
+    "next_due_date": "2026-05-01"
+  },
+  {
+    "id": 9,
+    "name": "Daniel Osei",
+    "picture": "https://randomuser.me/api/portraits/men/14.jpg",
+    "email": "daniel.osei@hotmail.com",
+    "days_since_contact": 33,
+    "status": "overdue",
+    "tags": ["gym", "college"],
+    "bio": "Gym partner and study buddy from college. We kept each other accountable through finals and now through life in general.",
+    "goal": 21,
+    "next_due_date": "2026-03-22"
+  },
+  {
+    "id": 10,
+    "name": "Priya Sharma",
+    "picture": "https://randomuser.me/api/portraits/women/36.jpg",
+    "email": "priya.sharma@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["book club", "close friend"],
+    "bio": "Book club co-founder and intellectual sparring partner. Our monthly meetings turn into four-hour philosophical debates over tea.",
+    "goal": 14,
+    "next_due_date": "2026-04-30"
+  }
+]
