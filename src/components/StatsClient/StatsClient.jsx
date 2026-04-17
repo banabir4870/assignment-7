@@ -9,7 +9,6 @@ const StatsClient = () => {
     const callCount = timelineHistory.filter(i => i.type === "Call").length;
     const textCount = timelineHistory.filter(i => i.type === "Text").length;
     const videoCount = timelineHistory.filter(i => i.type === "Video").length;
-    console.log('call:', callCount, 'text:', textCount, 'video:', videoCount)
     const data = [
         { name: "Call", value: callCount, fill: "#244D3F" },
         { name: "Text", value: textCount, fill: "#7E35E1" },
