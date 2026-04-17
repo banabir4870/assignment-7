@@ -30,7 +30,7 @@ const TimelineClient = () => {
 
             <div>
                 {
-                    filterTimline.length === 0 ? <p>No History Found</p> : filterTimline.map((history, ind) => <HistoryCard key={ind} history={history}></HistoryCard>)
+                    filterTimline.length === 0 ? <p className='text-center p-6 bg-base-100 shadow-sm'>No Timeline Data Found</p> : filterTimline.map((history, ind) => <HistoryCard key={ind} history={history}></HistoryCard>)
                 }
             </div>
         </div>

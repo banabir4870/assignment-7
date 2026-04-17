@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👥 KeenKeeper
 
-## Getting Started
+> Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📖 Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**KeenKeeper** is a friendship management web app that helps you stay on top of your most important relationships. It tracks how long it's been since you last contacted a friend, reminds you when you're overdue, and lets you log interactions like calls, texts, and video chats — so no friendship quietly fades away.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technologies Used
 
-## Learn More
+| Technology | Purpose |
+|---|---|
+| **React.js / Next.js** | UI framework & page routing |
+| **React Router DOM / App Router** | Client-side navigation |
+| **Tailwind CSS** | Utility-first styling & responsive layout |
+| **Recharts** | Pie chart for friendship analytics |
+| **React Hot Toast** | Toast notifications for check-ins |
+| **Lucide React** | Icon library |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1. 📋 Friend Dashboard
+View all your friends at a glance in a responsive card grid. Each card shows the friend's photo, name, days since last contact, tags, and color-coded status — **Overdue**, **Almost Due**, or **On-Track**.
 
-## Deploy on Vercel
+### 2. ⚡ Quick Check-In Logging
+From any friend's detail page, log a **Call**, **Text**, or **Video** interaction with a single click. The entry is instantly added to the global Timeline with the current date, and a toast notification confirms the action.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. 📊 Friendship Analytics
+A dedicated **Stats** page visualizes your interaction history using a Recharts donut chart — broken down by Call, Text, and Video — so you can see at a glance how you've been staying in touch.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
