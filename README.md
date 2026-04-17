@@ -1,38 +1,78 @@
-# 👥 KeenKeeper
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-> Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
+## 📌 Description
 
----
-
-## 📖 Description
-
-**KeenKeeper** is a friendship management web app that helps you stay on top of your most important relationships. It tracks how long it's been since you last contacted a friend, reminds you when you're overdue, and lets you log interactions like calls, texts, and video chats — so no friendship quietly fades away.
+**KeenKeeper** is a modern friendship management web app built with **Next.js**.
+It helps you track, maintain, and nurture your relationships by reminding you to stay connected with your friends through calls, texts, or video interactions.
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| **React.js / Next.js** | UI framework & page routing |
-| **React Router DOM / App Router** | Client-side navigation |
-| **Tailwind CSS** | Utility-first styling & responsive layout |
-| **Recharts** | Pie chart for friendship analytics |
-| **React Hot Toast** | Toast notifications for check-ins |
-| **Lucide React** | Icon library |
+* **Next.js (App Router)** — Full-stack React framework
+* **React.js** — UI building
+* **Tailwind CSS** — Styling
+* **DaisyUI** — UI components
+* **React Icons** — Icons
+* **Recharts** — Data visualization (Pie Chart)
+* **React Toastify** — Notifications
 
 ---
 
 ## ✨ Key Features
 
-### 1. 📋 Friend Dashboard
-View all your friends at a glance in a responsive card grid. Each card shows the friend's photo, name, days since last contact, tags, and color-coded status — **Overdue**, **Almost Due**, or **On-Track**.
+### 👥 1. Friend Management and Friend Details Page
 
-### 2. ⚡ Quick Check-In Logging
-From any friend's detail page, log a **Call**, **Text**, or **Video** interaction with a single click. The entry is instantly added to the global Timeline with the current date, and a toast notification confirms the action.
+* View all friends in a responsive grid layout
+* Each friend card shows:
 
-### 3. 📊 Friendship Analytics
-A dedicated **Stats** page visualizes your interaction history using a Recharts donut chart — broken down by Call, Text, and Video — so you can see at a glance how you've been staying in touch.
+  * Profile picture
+  * Name
+  * Days since last contact
+  * Tags
+  * Status (color-coded)
+* Detailed profile view with:
+
+  * Bio, email, tags, and status
+* Quick interaction buttons:
+
+  * 📞 Call
+  * 💬 Text
+  * 🎥 Video
+* Each interaction:
+
+  * Adds a timeline entry
+  * Shows a toast notification
 
 ---
 
+### 📜 2. Timeline Tracking and Timeline Filter
+
+* View all interaction history
+* Each entry includes:
+
+  * 📅 Date
+  * 🔣 Icon (Call/Text/Video)
+  * 📝 Title (e.g., *Call with Sara*)
+* Filter interactions by:
+
+  * Call
+  * Text
+  * Video
+* Dropdown-based filtering system
+
+
+
+---
+
+### 📊 3. Analytics Dashboard (Stats Page)
+
+* Visual representation using **Pie Chart**
+* Shows total:
+
+  * Calls
+  * Texts
+  * Video interactions
+* Displays empty state if no data exists
+
+---
