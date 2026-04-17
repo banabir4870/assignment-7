@@ -1,8 +1,7 @@
 'use client'
 import { FriendContext } from '@/Context/FriendContext';
 import Image from 'next/image';
-import { useParams, useRouter } from 'next/navigation';
-
+import { useParams } from 'next/navigation';
 import React, { useContext, useEffect, useState } from 'react';
 import { BsCameraVideo } from 'react-icons/bs';
 import { HiOutlineBellSnooze } from 'react-icons/hi2';
@@ -17,7 +16,6 @@ export const metadata = {
 const FriendDetailClient =  () => {
     const {addToTimeline} = useContext(FriendContext);
     const params = useParams();
-    const router = useRouter();
     const [friend, setFriend] = useState(null);
     const id = params.id;
     useEffect(() => {
