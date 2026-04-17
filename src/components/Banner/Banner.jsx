@@ -5,7 +5,7 @@ import React, { useContext } from 'react';
 import { FiPlus } from 'react-icons/fi';
 
 const Banner = () => {
-    const {totalFriends, onTrack, overdue} = useContext(FriendContext);
+    const {totalFriends, onTrack, overdue, interaction} = useContext(FriendContext);
 
     return (
         <div className='mt-20 mb-8 text-center'>
@@ -18,25 +18,25 @@ const Banner = () => {
                 <div className="card bg-base-100 shadow-sm">
                     <div className="card-body text-center">
                         <h2 className="text-center text-3xl font-semibold text-[#244D3F]">{totalFriends}</h2>
-                        <p className='text-xl text-[#64748B]'>Total Friends</p>
+                        <p className='text-sm lg:text-xl text-[#64748B]'>Total Friends</p>
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-sm">
                     <div className="card-body text-center">
                         <h2 className="text-center text-3xl font-semibold text-[#244D3F]">{onTrack}</h2>
-                        <p className='text-xl text-[#64748B]'>On Track</p>
+                        <p className='text-sm lg:text-xl text-[#64748B]'>On Track</p>
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-sm">
                     <div className="card-body text-center">
                         <h2 className="text-center text-3xl font-semibold text-[#244D3F]">{overdue}</h2>
-                        <p className='text-xl text-[#64748B]'>Need Attention</p>
+                        <p className='text-sm lg:text-xl text-[#64748B]'>Need Attention</p>
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-sm">
                     <div className="card-body text-center">
-                        <h2 className="text-center text-3xl font-semibold text-[#244D3F]">0</h2>
-                        <p className='text-xl text-[#64748B]'>Interactions This Month</p>
+                        <h2 className="text-center text-3xl font-semibold text-[#244D3F]">{interaction}</h2>
+                        <p className='text-sm lg:text-xl text-[#64748B]'>Interactions This Month</p>
                     </div>
                 </div>
             </div>
