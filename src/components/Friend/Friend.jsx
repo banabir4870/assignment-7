@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Friend = ({ friend }) => {
     return (
-        <div>
+        <Link href={`/friends/${friend.id}`}>
             <div className="card bg-base-100 shadow-sm">
                 <div className="card-body text-center flex flex-col justify-center items-center">
                     <Image src={friend.picture} alt={friend.name} width={70} height={70} className='rounded-full object-cover' />
@@ -16,7 +17,7 @@ const Friend = ({ friend }) => {
                     <div className={`badge leading-none text-[#FFFFFF] ${friend.status === 'overdue' ? 'bg-[#EF4444]' : friend.status === 'almost due' ? 'bg-[#EFAD44]' : friend.status === 'on-track' ? 'bg-[#244D3F]' : ''}`}>{friend.status}</div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 

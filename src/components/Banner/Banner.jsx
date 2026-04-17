@@ -1,7 +1,12 @@
-import React from 'react';
+'use client'
+
+import { FriendContext } from '@/Context/FriendContext';
+import React, { useContext } from 'react';
 import { FiPlus } from 'react-icons/fi';
 
 const Banner = () => {
+    const {totalFriends, onTrack, overdue} = useContext(FriendContext);
+
     return (
         <div className='mt-20 mb-8 text-center'>
             <div>
@@ -12,19 +17,19 @@ const Banner = () => {
             <div className='my-10 grid grid-cols-2 lg:grid-cols-4 gap-6'>
                 <div className="card bg-base-100 shadow-sm">
                     <div className="card-body text-center">
-                        <h2 className="text-center text-3xl font-semibold text-[#244D3F]">0</h2>
+                        <h2 className="text-center text-3xl font-semibold text-[#244D3F]">{totalFriends}</h2>
                         <p className='text-xl text-[#64748B]'>Total Friends</p>
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-sm">
                     <div className="card-body text-center">
-                        <h2 className="text-center text-3xl font-semibold text-[#244D3F]">0</h2>
+                        <h2 className="text-center text-3xl font-semibold text-[#244D3F]">{onTrack}</h2>
                         <p className='text-xl text-[#64748B]'>On Track</p>
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-sm">
                     <div className="card-body text-center">
-                        <h2 className="text-center text-3xl font-semibold text-[#244D3F]">0</h2>
+                        <h2 className="text-center text-3xl font-semibold text-[#244D3F]">{overdue}</h2>
                         <p className='text-xl text-[#64748B]'>Need Attention</p>
                     </div>
                 </div>
