@@ -1,5 +1,6 @@
 'use client'
 import React, { createContext, useState } from 'react';
+import { toast } from 'react-toastify';
 
 export const FriendContext = createContext();
 
@@ -11,6 +12,7 @@ const FriendProvider = ({ children }) => {
     const [timelineHistory, setTimelineHistory] = useState([])
     const interaction = timelineHistory.length;
     const addToTimeline = (type, name) => {
+        
         const newHistory = {
             type: type,
             name: name,
@@ -21,6 +23,7 @@ const FriendProvider = ({ children }) => {
             })
         }
         setTimelineHistory(prev => [...prev, newHistory]);
+        toast.success(`${newHistory.type} With ${newHistory.name} Successful`)
     }
 
 

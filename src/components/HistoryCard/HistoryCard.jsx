@@ -7,13 +7,13 @@ import Image from 'next/image';
 
 const HistoryCard = ({ history }) => {
     const getImg = (type) => {
-        if (type === 'call') {
+        if (type === 'Call') {
             return <Image src={callImg} alt='Call Image'></Image>
         };
-        if (type === 'text') {
+        if (type === 'Text') {
             return <Image src={textImg} alt='Call Image'></Image>
         };
-        if (type === 'video') {
+        if (type === 'Video') {
             return <Image src={videoImg} alt='Call Image'></Image>
         };
 
